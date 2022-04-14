@@ -10,8 +10,8 @@ void setup() {
     Kinematics kin(N);
     MatrixUtils mat_utils;
 
-    kin.add_joint_axis(0, 0,  1,  4, 0,    0);
-    kin.add_joint_axis(0, 0,  0,  0, 1,    0);
+    kin.add_joint_axis(0, 0,  1,  4, 0,    0); // whats is the parameter in ,there are joint,or angle or other?
+    kin.add_joint_axis(0, 0,  0,  0, 1,    0); 
     kin.add_joint_axis(0, 0, -1, -6, 0, -0.1);
 
     kin.add_initial_end_effector_pose(-1, 0,  0, 0,
